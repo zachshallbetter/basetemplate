@@ -1,0 +1,55 @@
+/*
+File: style.scss
+Outputs: style.css
+
+Project: __PROJECT NAME__
+
+Description:
+	Global styles
+
+Requires:
+	- Sass <http://sass-lang.com/>
+	- Compass <http://compass-style.org/>
+
+Requires:
+	- <nunchucks/_nunchucks.scss>
+	- <_site-settings.scss>
+
+*/
+
+// Import project settings first
+@import "site-settings";
+
+// Import Nunchucks
+// Use either nunchucks/reset or nunchucks/normalize based on your preference! Don't use both.
+@import "nunchucks",
+		"nunchucks/normalize";
+
+// Need a grid? Use the following:
+//
+//	Optional / Defaults are set in _site-settings, but you can override them here.
+//
+//	$row-width:     emCalc(1000px) !default;
+//	$column-gutter: emCalc(30px) !default;
+//	$total-columns: 12 !default;
+//
+// @import "nunchucks/grid";
+
+// Import project mixins
+@import "mixins/mixins";
+
+// Import project placeholders
+@import "placeholders/placeholders";
+
+// Import fonts
+
+// Import project base files
+@import "base/header",
+		"base/body",
+		"base/footer";
+
+// Import shared modules
+// @import "modules/feature";
+
+// Import page views
+@import "views/home";

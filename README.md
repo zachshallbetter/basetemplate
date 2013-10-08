@@ -41,11 +41,3 @@ Alright, now you're ready. You're willing. Let's Grunt.
 
 ---
 
-##Grunt Tasks
-
-=======
-basetemplate
-============
-
-Base template for CodeIgniter Projects
->>>>>>> 5e7139cd605d5c88e7b530e9e9aea69126606dc1
