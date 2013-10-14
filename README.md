@@ -1,6 +1,8 @@
 
 # Base Templates 
----
+
+Libraries are segmented for easier maintenance.
+
 ##Grunt Goodness
 
 [Grunt](http://gruntjs.com) lets us have common compilation and minification methods between our projects. To get up and running you're going to need to get Node and Grunt ( and a few other things maybe ) installed as well to get going.
