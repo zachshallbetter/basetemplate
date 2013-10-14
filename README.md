@@ -1,15 +1,5 @@
 
-# Base Template
-
-##Currently Includes:
-
-* Nunchucks SCSS framework
-* Javascript Basics
-* Jquery 1.9.1
-* Modernizr 2.6.2
-* RequireJS
-* Underscore
-
+# Base Templates 
 ---
 ##Grunt Goodness
 

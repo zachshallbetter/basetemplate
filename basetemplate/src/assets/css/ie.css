@@ -1,0 +1,18 @@
+/*
+File: ie.scss
+Outputs: ie.css
+
+Project: RED
+
+Description:
+	IE styles
+
+Requires:
+	- Sass <http://sass-lang.com/>
+	- Compass <http://compass-style.org/>
+
+*/
+/* line 27, ../../../scss/project/ie.scss */
+.ie9 {
+  background: blue;
+}
